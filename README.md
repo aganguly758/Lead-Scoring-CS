@@ -8,24 +8,24 @@ There are a lot of leads generated in the initial stage (top) but only a few of 
 
 X Education has appointed you to help them select the most promising leads, i.e. the leads that are most likely to convert into paying customers. The company requires you to build a model wherein you need to assign a lead score to each of the leads such that the customers with higher lead score have a higher conversion chance and the customers with lower lead score have a lower conversion chance. The CEO, in particular, has given a ballpark of the target lead conversion rate to be around 80%.
 
-Our Goals of the Case Study:
+Case Study Objectives:
 
-To build a logistic regression model to assign a lead score between 0 and 100 to each of the leads which can be used by the company to target potential leads.
-To adjust to the company's requirement changes in the future so these need to be handled as well.
+* To build a logistic regression model to assign a lead score between 0 and 100 to each of the leads which can be used by the company to target potential leads.
+* To adjust to the company's requirement changes in the future so these need to be handled as well.
 
 The steps taken are :
 
-Importing packages and Reading Data
-Inspecting the Dataframe
-Data Preparation & EDA
-Test-Train Split
-Feature Scaling
-Model Building
-Feature Selection Using RFE
-Calculating Other Metrics beyond Accuracy
-Plotting the ROC (Receiver Operator Characteristic) Curve
-Finding Optimal Cutoff Point
-Precision and Recall
-Making predictions on Test set
-Calculating Lead score for the Entire dataset
-Determining Relative Importance of Model Variables
+* Importing packages and Reading Data
+* Inspecting the Dataframe
+* Data Preparation & EDA
+* Test-Train Split
+* Feature Scaling
+* Model Building
+* Feature Selection Using RFE
+* Calculating Other Metrics beyond Accuracy
+* Plotting the ROC (Receiver Operator Characteristic) Curve
+* Finding Optimal Cutoff Point
+* Precision and Recall
+* Making predictions on Test set
+* Calculating Lead score for the Entire dataset
+* Determining Relative Importance of Model Variables
